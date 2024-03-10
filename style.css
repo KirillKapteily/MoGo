@@ -22,3 +22,7 @@
 .menu-link{
     color: var(--logo-button-color);
 }
+
+.menu-item{
+    color: var(--logo-button-color);
+}
