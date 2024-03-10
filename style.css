@@ -1,0 +1,21 @@
+:root{
+    /* light theme */
+    --logo-button-color: rgb(149, 255, 211);
+    --decore-text-color: #F38181;
+    --text-color: #B6B6B6;
+    --title-color: #333333;
+}
+
+.mcolor{
+    color: var(--logo-button-color);
+    /* font-size: larger;
+    font-family: 'Courier New', Courier, monospace; */
+}
+
+.active{
+    color: var(--decore-text-color);
+}
+
+.title-text{
+    color: var(--title-color);
+}
