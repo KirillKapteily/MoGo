@@ -19,3 +19,6 @@
 .title-text{
     color: var(--title-color);
 }
+.menu-link{
+    color: var(--logo-button-color);
+}
