@@ -9,6 +9,7 @@
 .mcolor{
     color: var(--logo-button-color);
     text-decoration: none;
+    display: flex;
     /* font-size: larger;
     font-family: 'Courier New', Courier, monospace; */
 }
@@ -35,15 +36,30 @@ text-decoration: none;
     list-style: none;
     text-decoration: none;
     margin-bottom: 68px;
+    display: flex;
+    gap: 55px;
+    justify-content: end;
+}
+
+.footer-form{
+    display: flex;
+    justify-content: end;
 }
 
 .main-list{
     list-style: none;
     padding-top: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    
 }
 
 .team-list{
     list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-left: 0px;
 }
 
 .title-text{
@@ -54,12 +70,19 @@ font-weight: 400;
 line-height: 35px;
 margin-bottom: 68x;
 letter-spacing: 0%;
+display: flex;
+justify-content: center;
 }
 
 .header-hr{
     width: 60px;
     color: var(--decore-text-color);
 }
+
+/* .header-page{
+    display: flex;
+} */
+
 
 .main-item{
     margin-bottom: 20px;
@@ -70,7 +93,8 @@ color: rgb(51, 51, 51);
 padding-top: 20px;
 margin-bottom: 40px;
 font-family: "Montserrat";
-
+display: flex;
+justify-content: center;
 font-size: 30px;
 font-weight: 700;
 line-height: 37px;
@@ -86,6 +110,11 @@ font-size: 14px;
 font-weight: 400;
 line-height: 17px;
 letter-spacing: 0%;
+
+}
+
+.flex-wrapper{
+ display: flex;   
 }
 
 .item-description{
@@ -95,7 +124,8 @@ font-size: 15px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0%;
-
+width: 274px;
+height: 37px;
 }
 
 .sub-title{
@@ -105,7 +135,9 @@ font-size: 24px;
 font-weight: 400;
 line-height: 35px;
 letter-spacing: 0%;
-margin-bottom: 177px;
+margin-bottom: 17px;
+display: flex;
+justify-content: center;
 }
 
 .container{
@@ -122,6 +154,8 @@ font-weight: 700;
 line-height: 37px;
 letter-spacing: 0%;
 text-align: left;
+display: flex;
+justify-content: center;
 }
 
 .section-paragraph{
@@ -141,6 +175,8 @@ font-size: 14px;
 font-weight: 400;
 line-height: 17px;
 letter-spacing: 0%;
+display: flex;
+justify-content: center;
 }
 
 .worker{
@@ -150,6 +186,8 @@ font-size: 15px;
 font-weight: 300;
 line-height: 18px;
 letter-spacing: 0%;
+display: flex;
+justify-content: center;
 }
 
 .copiht-info{
