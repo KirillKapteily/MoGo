@@ -10,6 +10,7 @@
     color: var(--logo-button-color);
     text-decoration: none;
     display: flex;
+    width: 100px;
     /* font-size: larger;
     font-family: 'Courier New', Courier, monospace; */
 }
@@ -34,12 +35,23 @@ text-decoration: none;
 }
 .header-list{
     list-style: none;
-    text-decoration: none;
-    margin-bottom: 68px;
-    display: flex;
-    gap: 55px;
-    justify-content: end;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-right: auto;
+  width: 500px;
+  align-items: center;
 }
+
+.header-list-contacts {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
 
 .footer-form{
     display: flex;
@@ -55,11 +67,32 @@ text-decoration: none;
     
 }
 
+/* .box{
+    width: 350px;
+    position: relative;
+}
+
+.box:hover::before{
+content: '';
+display: block;
+position: absolute;
+left: 20px;
+right: -20px;
+top: 20px;
+bottom: -20px;
+background: linear-gradient(180deg, rgba(239, 139, 138, 0.8), rgba(229, 207, 130, 0.8) 100%);
+box-shadow: -10px -10px 30px #333;
+} */
+
 .team-list{
     list-style: none;
     display: flex;
     gap: 30px;
     padding-left: 0px;
+}
+
+body{
+font-family: "Roboto";
 }
 
 .title-text{
@@ -74,15 +107,31 @@ display: flex;
 justify-content: center;
 }
 
+.decor{
+    position: relative;
+    top: 15px;
+    right: 2px;
+    width: 55px;
+height: 3px;
+  background-color: var(--decore-text-color);
+  }
+
 .header-hr{
     width: 60px;
-    color: var(--decore-text-color);
+height: 4px;
+    background-color: var(--decore-text-color);
+    border: #F38181;
 }
 
-/* .header-page{
+.header-page{
     display: flex;
-} */
+    height: 80px;
+} 
 
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+  }
 
 .main-item{
     margin-bottom: 20px;
@@ -227,6 +276,12 @@ text-align: center;
 
 .hr{
     width: 1200px;
+
+}
+
+.main-ico{
+    height: 37px;
+    width: 37px;
 }
 
 .active{

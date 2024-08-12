@@ -22,7 +22,7 @@
 <body>
     <header class="header-page">
         <div class="container">
-            <a href="#" class="mcolor">MoGo</a>
+          <!--   <a href="#" class="mcolor">MoGo</a>
             <ul class="header-list">
                 <li class="menu-item"><a href="#" class="active">ABOUT</a></li>
                 <li class="menu-item"><a href="#" class="menu-link">SERVICE</a></li>
@@ -30,8 +30,24 @@
                 <li class="menu-item"><a href="#" class="menu-link">ABOUT</a></li>
                 <li class="menu-item"><a href="#" class="menu-link">CONTACT</a></li>
             </ul>
-        </div>
+        </div> -->
+        <!-- <div class="header-wraper"> -->
+            
+            <nav class="header-nav">
+                <ul class="header-list">
+                    <li><a href="#" class="mcolor">MoGo</a></li>
+                </ul>
+                <ul class="header-list-contacts">
+                    <li class="menu-item"><a href="#" class="active">ABOUT <div class="decor"></div></a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">SERVICE</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">WORK</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">ABOUT</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">CONTACT</a></li>
+                </ul>
+            </nav>
+    </div>
     </header>
+    
     <main>
         <div class="container">
             <section>
@@ -41,35 +57,35 @@
             <hr class="header-hr">
             <section>
                 <ul class="main-list">
-                    <li class="main-item"> <img src="alarm.png" alt="alarm">
+                    <li class="main-item"> 
+                        <svg class="main-ico"><use href="img/symbol-defs.svg#icon-alarm" width="37" height="37"></use></svg>
                         <div class="flex-wrapper">
                         <h4 class="list-title">photography</h4>
                     </div>
                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor.</p>
-                        
                     </li>
-                    <li class="main-item"> <img src="grafic.png" alt="grafic">
+                    <li class="main-item"> <svg class="main-ico"><use href="img/symbol-defs.svg#icon-graphic" width="37" height="37"></use></svg>
                         <h4 class="list-title">photography</h4>
                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor</p>
                     </li class="main-item">
-                    <li> <img src="computer.png" alt="computer">
+                    <li> <svg class="main-ico"><use href="img/symbol-defs.svg#icon-mac" width="37" height="37"></use></svg>
                         <h4 class="list-title">photography</h4>
                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor</p>
                     </li>
-                    <li class="list-title"><img src="paper.png" alt="paper">
+                    <li class="list-title"><svg class="main-ico"><use href="img/symbol-defs.svg#icon-paper" width="37" height="37"></use></svg>
                         <h4 class="list-title">photography</h4>
                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor</p>
                     </li>
-                    <li class="list-title"><img src="home.png" alt="home">
+                    <li class="list-title"><svg class="main-ico"><use href="img/symbol-defs.svg#icon-home" width="37" height="37"></use></svg>
                         <h4 class="list-title">photography</h4>
                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor</p>
                     </li>
-                    <li class="list-title"> <img src="AD.png" alt="AD">
+                    <li class="list-title"> <svg class="main-ico"><use href="img/symbol-defs.svg#icon-ad" width="37" height="37"></use></svg>
                         <h4 class="list-title">photography</h4>
                         <p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                             eiusmod tempor</p>
@@ -89,7 +105,9 @@
                     ex ea commodo consequat. </p>
                 <ul class="team-list">
                     <li class="team-item">
+                        <div class="box">
                         <img src="1man.jpg" alt="Matthew Dix" class="team-img">
+                    </div>
                         <br>
                         <span class="surname-name-item">Matthew Dix</span>
                         <br>
@@ -114,13 +132,23 @@
     </main>
     <hr class="hr">
     <footer>
-        <div class="container">
-            <p class="copiht-info">© 2016 MoGo free PSD template by <a href="#" class="Laaqiq">Laaqiq</a></p>
+         <div class="container">
+          <!--  <p class="copiht-info">© 2016 MoGo free PSD template by <a href="#" class="Laaqiq">Laaqiq</a></p>
             <div class="footer-form">
             <form> <input type="text" placeholder="Your-Email..." class="footer-input">
                 <button class="footer-button" type="submit">subscribe</button>
             </form>
-        </div>
+        </div> -->
+        <nav class="header-nav">
+            <ul class="header-list">
+                <p class="copiht-info">© 2016 MoGo free PSD template by <a href="#" class="Laaqiq">Laaqiq</a></p>
+            </ul>
+            <ul class="header-list-contacts">
+                <li class="menu-item"><form> <input type="text" placeholder="Your-Email..." class="footer-input">
+                    <button class="footer-button" type="submit">subscribe</button>
+                </form></li>
+            </ul>
+        </nav>
         </div>
     </footer>
 </body>
